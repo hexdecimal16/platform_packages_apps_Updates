@@ -5,7 +5,6 @@
     <string name="app_name">Обновление системы</string>
     <!-- Update checking -->
     <string name="ota_not_supported">Эта сборка не поддерживает OTA обновления.</string>
-    <string name="last_updated_at">(Последнее обновление: <xliff:g id="time">%s</xliff:g>)</string>
     <string name="type_downloaded">Загружено</string>
     <string name="type_downloading">Загрузка…</string>
     <string name="type_completing">Завершение…</string>
@@ -43,8 +42,6 @@
     <string name="addons_error">Не удалось загрузить список дополнений</string>
     <!-- MD5 -->
     <string name="checking_md5">Проверка целостности файлов…</string>
-    <string name="md5_failed_dialog_title">Целостность файла</string>
-    <string name="md5_failed_dialog_message">Сбой проверки, вы хотите продолжить?</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">Отменить загрузку</string>
     <string name="confirm_download_cancel_dialog_message">Отменить текущую загрузку ?</string>

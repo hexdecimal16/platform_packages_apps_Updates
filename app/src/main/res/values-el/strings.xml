@@ -42,8 +42,6 @@
     <string name="addons_error">Αποτυχία φόρτωσης της λίστας προσθέτων</string>
     <!-- MD5 -->
     <string name="checking_md5">Επαλήθευση ακεραιότητας του αρχείου…</string>
-    <string name="md5_failed_dialog_title">Ακεραιότητα αρχείου</string>
-    <string name="md5_failed_dialog_message">Αποτυχία επαλήθευσης, θα θέλατε να συνεχίσετε;</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">Ακύρωση λήψης</string>
     <string name="confirm_download_cancel_dialog_message">Ακύρωση της τρέχουσας λήψης;</string>
@@ -56,9 +54,38 @@
     <string name="notif_download_success_summary">Πατήστε για εγκατάσταση</string>
     <string name="notif_download_failure_title">Η λήψη της ενημέρωσης απέτυχε</string>
     <string name="error_download_in_progress">Υπάρχει μια λήψη σε εξέλιξη</string>
+    <string name="error_file_ready_to_install">Υπάρχει μια ενημερωμένη έκδοση έτοιμη για εγκατάσταση</string>
+    <string name="storage_permission_error">Παρακαλούμε χορηγήστε άδεια αποθήκευσης για να συνεχίσετε</string>
     <!-- Deleting -->
+    <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
+    <string name="confirm_delete_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
+    <string name="confirm_delete_all_dialog_message">Διαγραφή όλων των ληφθέντων αρχείων ενημερώσεων;</string>
+    <string name="delete_update_success_message">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> διαγράφηκε</string>
+    <string name="delete_updates_failure_message">Υπήρξε ένα σφάλμα κατά τη διαγραφή του αρχείου ενημέρωσης</string>
+    <string name="delete_updates_noFolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
+    <string name="delete_updates_success_message">Όλες οι κατεβασμένες ενημερώσεις διαγράφηκαν</string>
     <!-- Menu and dialog strings -->
+    <string name="menu_refresh">Ανανέωση</string>
+    <string name="menu_delete_all">Διαγραφή ενημερώσεων</string>
     <!-- Mobile data warning -->
+    <string name="update_on_mobile_data_title">Προσοχή</string>
+    <string name="update_on_mobile_data_message">Είστε έτοιμος να κατεβάσετε ένα πακέτο ενημέρωσης χρησιμοποιώντας δεδομένα κινητής τηλεφωνίας, το οποίο είναι πιθανό να προκαλέσει υψηλή χρήση δεδομένων. Θα θέλατε να συνεχίσετε;</string>
+    <string name="checkbox_mobile_data_warning">Να μην εμφανιστεί ξανά</string>
     <!-- Install -->
+    <string name="reboot_title">Εγκατάσταση ενημέρωσης</string>
+    <string name="reboot_message">Η συσκευή θα επανεκκίνησή σε κατάσταση recovery για να εγκαταστήσει την ενημέρωση.\n\nΘα εγκατασταθεί το αρχείο:\n<xliff:g id="filepath">%s</xliff:g>\n\nΘέλετε να συνεχίσετε;</string>
+    <string name="reboot_failed_title">Σφάλμα</string>
+    <string name="reboot_failed_message">Αποτυχία επανεκκίνησης, παρακαλώ επανεκκινήστε χειροκίνητα σε κατάσταση recovey για να εγκατασταθεί το ακόλουθο αρχείο:\n\n<xliff:g id="filepath">%s</xliff:g></string>
+    <string name="delete_after_install_title">Διαγραφή αρχείου zip έπειτα από την εγκατάσταση</string>
+    <string name="advanced_options">Για προχωρημένους</string>
+    <string name="save_advanced_options">Αποθήκευση</string>
+    <string name="wipe_cache">Εκκαθάριση προσωρινής μνήμης</string>
+    <string name="wipe_dalvik_cache">Εκκαθάριση Dalvik/προσωρινής μνήμης ART</string>
+    <string name="wipe_data">Διαγραφή δεδομένων</string>
+    <string name="wipe_data_dialog_confirmation_title">Επαναφορά εργοστασιακών ρυθμίσεων</string>
+    <string name="wipe_data_dialog_confirmation_message">Έχετε επιλέξει «εκκαθάριση δεδομένων», αυτό θα επαναφέρει την συσκευή σας στις εργοστασιακές ρυθμίσεις, θέλετε να συνεχίσετε;</string>
+    <string name="update_manual_ab">Για συνέχεια, κάντε εγκαταστείστε την έκδοση χειροκίνητα μέσω TWRP. Αυτή η συσκευή δεν υποστηρίζει την αυτόματη εγκατάσταση λόγω των Α/Β διαμερισμάτων.</string>
     <!-- Changelog -->
+    <string name="changelog_title">Αρχείο καταγραφής αλλαγών</string>
+    <string name="changelog_loading">Φόρτωση…</string>
 </resources>

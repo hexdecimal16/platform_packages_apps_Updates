@@ -9,7 +9,6 @@ App_NAME
 கோப்பு: strings. xml</string>
     <!-- Update checking -->
     <string name="ota_not_supported">இந்த கட்டு OTA மேம்படுத்தல்களை ஆதரிப்பதில்லை.</string>
-    <string name="last_updated_at">(கடைசியாக புதுப்பிக்கப்பட்டது <xliff:g id="time">%s</xliff:g>)</string>
     <string name="type_downloaded">பதிவிறக்கியவை
 
 type_downloaded
@@ -134,14 +133,6 @@ addons_error
 checking_md5
 எம்டி 5
 கோப்பு: strings. xml…</string>
-    <string name="md5_failed_dialog_title">கோப்பு நேர்மை
-
-md5_failed_dialog_title
-கோப்பு: strings. xml</string>
-    <string name="md5_failed_dialog_message">சரிபார்ப்பு தோல்வி, நீங்கள் தொடர விரும்புகிறீர்களா?
-
-md5_failed_dialog_message
-கோப்பு: strings. xml?</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">பதிவிறக்க ரத்துசெய்யவும்
 
