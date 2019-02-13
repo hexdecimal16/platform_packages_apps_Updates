@@ -5,6 +5,7 @@
     <string name="app_name">시스템 업데이트</string>
     <!-- Update checking -->
     <string name="ota_not_supported">이 빌드는 OTA 업데이트를 지원하지 않습니다.</string>
+    <string name="last_updated_at">마지막 업데이트 시간: <xliff:g id="Time">%s</xliff:g></string>
     <string name="type_downloaded"> 다운로드 됨</string>
     <string name="type_downloading">다운로드 중...</string>
     <string name="type_completing">완료 중...</string>
@@ -42,6 +43,7 @@
     <string name="addons_error">부가 기능 목록을 불러오지 못했습니다.</string>
     <!-- MD5 -->
     <string name="checking_md5">파일 무결성 확인 중…</string>
+    <string name="md5_verification_failed">파일 무결성 검증 실패</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">다운로드 취소</string>
     <string name="confirm_download_cancel_dialog_message">현재 진행중인 다운로드를 취소하시겠습니까?</string>

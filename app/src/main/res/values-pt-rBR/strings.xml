@@ -5,6 +5,7 @@
     <string name="app_name">Atualizações do sistema</string>
     <!-- Update checking -->
     <string name="ota_not_supported">Esta compilação não suporta atualizações OTA.</string>
+    <string name="last_updated_at">(última verificação em <xliff:g id="time">%s</xliff:g>)</string>
     <string name="type_downloaded">Download concluído</string>
     <string name="type_downloading">Fazendo download…</string>
     <string name="type_completing">Completando…</string>
@@ -42,6 +43,7 @@
     <string name="addons_error">Falha ao carregar a lista de arquivos</string>
     <!-- MD5 -->
     <string name="checking_md5">Verificando a integridade do arquivo…</string>
+    <string name="md5_verification_failed">Falha na verificação da integridade do arquivo</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">Cancelar download</string>
     <string name="confirm_download_cancel_dialog_message">Deseja cancelar o download atual?</string>
@@ -70,13 +72,13 @@
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Atenção</string>
     <string name="update_on_mobile_data_message">Você está prestes a fazer o download de um pacote de atualização usando os dados móveis que provavelmente causará um alto consumo de dados. Gostaria de continuar?</string>
-    <string name="checkbox_mobile_data_warning">Não exibir novamente</string>
+    <string name="checkbox_mobile_data_warning">Não mostrar novamente</string>
     <!-- Install -->
     <string name="reboot_title">Instalar atualização</string>
     <string name="reboot_message">O dispositivo irá reiniciar no modo de recuperação para instalar a atualização.\n\nO seguinte arquivo será instalado:\n<xliff:g id="filepath">%s </xliff:g> \n\nVocê gostaria de continuar?</string>
     <string name="reboot_failed_title">Erro</string>
     <string name="reboot_failed_message">Falha ao reiniciar, por favor reinicie manualmente para o modo de recuperação e instale o seguinte arquivo:\n\n<xliff:g id="filepath">%s</xliff:g></string>
-    <string name="delete_after_install_title">Excluir o arquivo zip depois de instalar</string>
+    <string name="delete_after_install_title">Excluir o arquivo zip após a instalação</string>
     <string name="advanced_options">Avançado</string>
     <string name="save_advanced_options">Salvar</string>
     <string name="wipe_cache">Limpar cache</string>
