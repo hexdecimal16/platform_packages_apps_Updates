@@ -13,7 +13,7 @@
     <string name="install_button">Инсталирай</string>
     <string name="updates_category_title">Налични актуализации</string>
     <string name="checking_for_updates">Проверка за актуализации</string>
-    <string name="update_found_notification">Има нова актуализация</string>
+    <string name="update_found_notification">Налична нова актуализация</string>
     <string name="update_found_notification_desc">Натиснете, за да започнете изтегляне</string>
     <string name="no_updates_available">Няма нови актуализации</string>
     <string name="no_updates_available_pref_title">Няма налични актуализации. Използвате бутона Обнови, за да проверите за нови актуализации.</string>
@@ -25,10 +25,10 @@
     <string name="download_folder_title">Папка за сваляне</string>
     <string name="unknown">Неизвестно</string>
     <string name="mobile_data_warning_title">Предупреждение за мобилни данни</string>
-    <string name="mobile_data_warning_summary">Показва предупреждение, когато потребителят се опитва да изтеглите актуализация чрез мобилни данни</string>
+    <string name="mobile_data_warning_summary">Показва предупреждение, когато потребителят се опитва да изтегли актуализация чрез мобилни данни</string>
     <!-- Info section -->
     <string name="extras_category_title">Екстри</string>
-    <string name="error_open_url">Неуспешно отваряне на URL в браузъра</string>
+    <string name="error_open_url">Неуспешно отваряне на URL адреса в браузъра</string>
     <string name="developer_info_title">Отговорник</string>
     <string name="donate_info_title">Дарете</string>
     <string name="donate_info_summary">Подкрепете разработката</string>
@@ -43,16 +43,17 @@
     <string name="addons_error">Неуспешно зареждане на списък на добавките</string>
     <!-- MD5 -->
     <string name="checking_md5">Проверка на целостта на файла…</string>
+    <string name="md5_verification_failed">Неуспешно потвърждаване целостта на файла</string>
     <!-- Downloads -->
     <string name="confirm_download_cancel_dialog_title">Прекъсни изтеглянето</string>
     <string name="confirm_download_cancel_dialog_message">Да бъде ли отказано текущото изтегляне ?</string>
     <string name="download_cancelled">Изтегляне отменено</string>
-    <string name="download_already_running">Изтеглянето вече се извършва</string>
+    <string name="download_already_running">Изтеглянето вече е в ход</string>
     <string name="unable_to_stop_download">Не може да спрете изтеглянето</string>
-    <string name="unable_to_download_file">Невъзможно е да се изтегли файла</string>
+    <string name="unable_to_download_file">Невъзможно е да се изтегли актуализирания файл</string>
     <string name="download_not_found">Изтеглянето не е намерено</string>
     <string name="notif_download_success_title">Актуализацията е изтеглена успешно</string>
-    <string name="notif_download_success_summary">Натиснете, за да инсталирате</string>
+    <string name="notif_download_success_summary">Докоснете, за да инсталирате</string>
     <string name="notif_download_failure_title">Неуспешно изтегляне на актуализация</string>
     <string name="error_download_in_progress">Извършва се изтегляне</string>
     <string name="error_file_ready_to_install">Има актуализация готова за инсталиране</string>
@@ -84,7 +85,7 @@
     <string name="wipe_dalvik_cache">Изтриване на Dalvik/ART кеша</string>
     <string name="wipe_data">Изтриване на данни</string>
     <string name="wipe_data_dialog_confirmation_title">Възстановяване на фабричните настройки</string>
-    <string name="wipe_data_dialog_confirmation_message">Избра ли сте опцията \"изтриване на данни\", това ще възтанови фабричните настройки на вашето устройство, искате ли да продължите?</string>
+    <string name="wipe_data_dialog_confirmation_message">Избрали сте опцията \"изтриване на данни\", това ще възтанови фабричните настройки на вашето устройство, искате ли да продължите?</string>
     <string name="update_manual_ab">За да продължите, подгответе ръчно ROM-а, като използвате TWRP. Това устройство не поддържа автоматично флашване заради A/B дялове.</string>
     <!-- Changelog -->
     <string name="changelog_title">Списък на промените</string>
