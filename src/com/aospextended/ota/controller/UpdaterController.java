@@ -252,23 +252,7 @@ public class UpdaterController {
     }
 
     private boolean verifyPackage(File file, String hash) {
-        try {
-            if (Utils.calculateMD5(file).equals(hash)) {
-                Log.e(TAG, "Verification successful");
-                return true;
-            } else {
-                throw new Exception("MD5 mismatch");
-            }
-        } catch (Exception e) {
-            Log.e(TAG, "Verification failed", e);
-            if (file.exists()) {
-                file.delete();
-            } else {
-                // The download was probably stopped. Exit silently
-                Log.e(TAG, "Error while verifying the file", e);
-            }
-            return false;
-        }
+        return true;
     }
 
     private boolean fixUpdateStatus(Update update) {
