@@ -252,6 +252,7 @@ public class UpdaterController {
     }
 
     private boolean verifyPackage(File file, String hash) {
+	Log.e(TAG, "Forced MD5 pass");
         return true;
     }
 
