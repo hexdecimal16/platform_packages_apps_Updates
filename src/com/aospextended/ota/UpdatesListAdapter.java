@@ -98,7 +98,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     private void handleActiveStatus(ViewHolder viewHolder, UpdateInfo update) {
         boolean canDelete = false;
 
-        final String downloadId = update.getDownloadId();
+        final String downloadId = update.getHash();
         if (mUpdaterController.isDownloading(downloadId)) {
             canDelete = true;
             String downloaded = Formatter.formatShortFileSize(mActivity,
